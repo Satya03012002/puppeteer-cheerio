@@ -6,9 +6,9 @@ const load = async(url) =>{
     const page = await browser.newPage();
     await page.goto(url);
    const  inputfield = await page.$("#email");
-   await inputfield.type("satya123.sp34@gmail.com")
+   await inputfield.type("##############")
    const  input = await page.$("#password");
-   await input.type("satya@03")
+   await input.type("###########")
    const  enter = await page.$("#login_submit");
     await enter.click()
     await page.waitForSelector("#chat_group")
